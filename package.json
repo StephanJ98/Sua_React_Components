@@ -1,8 +1,12 @@
 {
-  "name": "sua_react_components",
-  "version": "1.0.0",
+  "name": "@stephanj98/sua_react_components",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/StephanJ98"
+  },
+  "version": "1.0.2",
   "description": "A simple library of react custom components",
   "author": "StephanJ98",
+  "repository": "https://github.com/StephanJ98/sua_react_components",
   "license": "ISC",
   "keywords": [
     "react",
