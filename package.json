@@ -1,7 +1,7 @@
 {
   "name": "@stephanj98/sua_react_components",
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com/StephanJ98"
+    "registry": "https://npm.pkg.github.com/stephanjr98"
   },
   "version": "1.0.4",
   "description": "A simple library of react custom components",
