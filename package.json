@@ -1,7 +1,7 @@
 {
   "name": "@stephanj98/sua_react_components",
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com/stephanjr98"
+    "registry": "https://npm.pkg.github.com/stephanj98"
   },
   "version": "1.0.4",
   "description": "A simple library of react custom components",
@@ -27,13 +27,6 @@
     "@rollup/plugin-commonjs": "^25.0.0",
     "@rollup/plugin-node-resolve": "^15.1.0",
     "@rollup/plugin-typescript": "^11.1.1",
-    "@storybook/addon-essentials": "7.0.18",
-    "@storybook/addon-interactions": "7.0.18",
-    "@storybook/addon-links": "7.0.18",
-    "@storybook/blocks": "7.0.18",
-    "@storybook/react": "7.0.18",
-    "@storybook/react-vite": "7.0.18",
-    "@storybook/testing-library": "0.0.14-next.2",
     "@types/react": "^18.2.8",
     "prop-types": "15.8.1",
     "react": "18.2.0",
