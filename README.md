@@ -1,18 +1,16 @@
-# Sua React Components Library
+Ceci est une librairie de composants React que j'ai créé au fur des années.
 
-Ceci est ul librerie de composants React que j'ai cree au fur des années.
-
-Tous ou presque tous les composant sont crées avec Typescript, ce qui permet leus utilisation avec Javascript et TypeScript.
+Tous ou presque tous les composants sont créés avec TypeScript, ce qui permet leur utilisation avec JavaScript et TypeScript.
 
 ## Utilisation
 
-1. Importes le packet avec:
+1. Importer le packet avec:
 
 - NPM `npm install @stephanj98/sua_react_components`
 - YARN `yarn add @stephanj98/sua_react_components`
 - PNPM `pnpm add @stephanj98/sua_react_components`
 
-2. Les utiliser facilement dans votre code. Les examples vous motrerent comment.
+2. Les utiliser facilement dans votre code. Les exemples vous montrent comment.
 
 
 # Composants
@@ -21,18 +19,18 @@ Tous ou presque tous les composant sont crées avec Typescript, ce qui permet le
 
 ## Modal
 
-### Table de propietées
+### Table de propriétés
 
-| Prop | defaults | Obligatoire | Description |
+| Prop | Defaults | Obligatoire | Description |
 |-|-|-|-|
-| `title` | null | Oui | Titre a aficher dans le header du modal. |
-| `isOpen` | `false` | Oui | Etat d'ouverture du composant |
-| `toggle` | null | Oui | Fonction qui gere la transition d'etat du composant |
-| `children` | null | Oui | Autres composant JSX ou TSX passées au composant |
+| `title` | null | Oui | Titre à afficher dans le header du modal |
+| `isOpen` | `false` | Oui | État d'ouverture du composant |
+| `toggle` | null | Oui | Fonction qui gère la transition d'état du composant |
+| `children` | null | Oui | Autres composants JSX ou TSX passées au composant |
 
 ### Utilisation
 
-> ***RECOMENDATION***: L'utilisation d'un custom hook pour gerer l'etat est recomendée.
+> ***RECOMMANDATION***: L'utilisation d'un custom hook pour gérer l'état est recommandée.
 
 ```jsx
 // Exemple de custom hook
@@ -50,7 +48,7 @@ import { Modal } from '@StephanJ98/sua_react_components'
 import useModal from './hooks/useModal'
 
 function App() {
-  // Custom Hook qui gere le state du composant  
+  // Custom Hook qui gère l'état du composant  
   const { isOpen, toggle } = useModal()
 
   return (
