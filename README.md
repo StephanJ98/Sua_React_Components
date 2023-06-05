@@ -31,7 +31,7 @@ Tous ou presque tous les composants sont créés avec TypeScript, ce qui permet 
 
 ### Utilisation
 
-> ***RECOMMANDATION***: L'utilisation du custom hook `useToggle` du paquet `sua_react_hooks` pour gérer l'état est recommandée.
+> ***RECOMMANDATION***: L'utilisation du custom hook `useToggleState` du paquet `sua_react_hooks` pour gérer l'état est recommandée.
 
 ```jsx
 // Exemple de custom hook
@@ -46,10 +46,10 @@ export default function useModal() {
 
 ```jsx
 import { Modal } from 'sua_react_components'
-import useToggle from 'sua_react_hooks'
+import useToggleState from 'sua_react_hooks'
 
 function App() { 
-  const { state, toggle } = useToggle()
+  const { state, toggle } = useToggleState()
 
   return (
     <div className='app'>
