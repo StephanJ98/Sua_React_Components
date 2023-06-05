@@ -6,9 +6,9 @@ Tous ou presque tous les composants sont créés avec TypeScript, ce qui permet 
 
 1. Importer le packet avec:
 
-- NPM `npm install @stephanj98/sua_react_components`
-- YARN `yarn add @stephanj98/sua_react_components`
-- PNPM `pnpm add @stephanj98/sua_react_components`
+- NPM `npm install sua_react_components`
+- YARN `yarn add sua_react_components`
+- PNPM `pnpm add sua_react_components`
 
 2. Les utiliser facilement dans votre code. Les exemples vous montrent comment.
 
@@ -44,7 +44,7 @@ export default function useModal() {
 ```
 
 ```jsx
-import { Modal } from '@StephanJ98/sua_react_components'
+import { Modal } from 'sua_react_components'
 import useModal from './hooks/useModal'
 
 function App() {
