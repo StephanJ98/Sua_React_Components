@@ -4,14 +4,15 @@ Tous ou presque tous les composants sont créés avec TypeScript, ce qui permet 
 
 ## Utilisation
 
-1. Importer le packet avec:
+### 1. Importer le packet avec:
 
-- NPM `npm install sua_react_components`
-- YARN `yarn add sua_react_components`
-- PNPM `pnpm add sua_react_components`
+- `npm install sua_react_components`
+- `yarn add sua_react_components`
+- `pnpm add sua_react_components`
 
-2. Les utiliser facilement dans votre code. Les exemples vous montrent comment.
+> ***RECOMMANDATION***: L'utilisation du paquet `sua_react_hooks`, en complement de celui ci, est recommande.
 
+### 2. Les utiliser facilement dans votre code. Les exemples vous montrent comment.
 
 # Composants
 
@@ -30,7 +31,7 @@ Tous ou presque tous les composants sont créés avec TypeScript, ce qui permet 
 
 ### Utilisation
 
-> ***RECOMMANDATION***: L'utilisation d'un custom hook pour gérer l'état est recommandée.
+> ***RECOMMANDATION***: L'utilisation du custom hook `useToggle` du paquet `sua_react_hooks` pour gérer l'état est recommandée.
 
 ```jsx
 // Exemple de custom hook
@@ -45,17 +46,16 @@ export default function useModal() {
 
 ```jsx
 import { Modal } from 'sua_react_components'
-import useModal from './hooks/useModal'
+import useToggle from 'sua_react_hooks'
 
-function App() {
-  // Custom Hook qui gère l'état du composant  
-  const { isOpen, toggle } = useModal()
+function App() { 
+  const { state, toggle } = useToggle()
 
   return (
     <div className='app'>
       <button onClick={toggle}>Open Modal 1</button>
 
-      <Modal isOpen={isOpen} toggle={toggle} title={'Example 1'}>
+      <Modal isOpen={state} toggle={toggle} title={'Example 1'}>
         <div className='contenidoModal'>
           <p>Modal Content</p>
         </div>
